@@ -14,7 +14,7 @@ if (first) {
     const kelvin = 273;
     const keyWeather = "b8884a56f4cfafd0d7a008b90c88f098";
     function getWeather() {
-        let api = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${keyWeather}`;
+        let api = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${keyWeather}`;
 
         fetch(api)
             .then(function (response) {
