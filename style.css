@@ -1,0 +1,103 @@
+.navbar{
+    background-image: linear-gradient(to right bottom, #1a759f, #0087a6, #0098a6, #25a7a2, #52b69a);
+}
+.navbar  li{
+    margin-right : 6em;
+    font-family: "Poppins",sans-serif;
+    font-size:1.2em;
+    font-weight : 800;
+    letter-spacing : 2px;
+    text-transform: uppercase;
+
+}
+form{
+    padding:10px !important;
+}
+
+.navbar li a {
+    color : #184e77 !important;
+      z-index: 1;
+      position: relative;
+  }
+
+.navbar li a::after {
+    content: "";
+    position: absolute;
+    left: -0.1px;
+    right: -0.1px;
+    bottom: 0;
+    height: 30%;
+    z-index: -1;
+    transform: scaleY(.3);
+    transition: transform 300ms ease-in-out;
+    transform-origin: bottom;
+    background-color: #99d98c;
+
+}
+
+.navbar li a:hover::after {
+    transform: scaleY(3);
+}
+.btn{
+    background-color :#577C7D;
+}
+#weatherSearch{
+    display:flex;
+    width:50%;
+}
+
+.weather{
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    padding:10px;
+    position:relative;
+}
+.container{
+    width:300px;
+    height: 70vh;
+    justify-content:flex-end;
+    position:absolute;
+    left:80%;
+    background-color : #3E3148;
+    top:35%;
+    border-radius:5px;
+}
+.location p{
+    font-size: 1.5em;
+    font-weight : 700;
+    margin: 0;
+    color: #577C7D;
+    text-align: center;
+}
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #577C7D;
+    text-align: center;
+    font-size: 2em;
+}
+.title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #577C7D;
+    text-transform: uppercase;
+}
+.temperature-value span{
+    color: #577C7D;
+    font-size: 1em;
+    text-align : center;
+    text-transform: uppercase;
+
+}
+.temperature-value{
+    width: 250px;
+    color : #577C7D;
+    font-size: 6em;
+    text-align : center;
+    margin:10px;
+    text-transform: uppercase;
+
+}
