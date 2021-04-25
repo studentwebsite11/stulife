@@ -90,6 +90,9 @@ audio::-webkit-media-controls-panel {
 .btn{
     background-color :#577C7D;
 }
+.btn:hover{
+    background-color :rgba(87, 124, 125,0.5);
+}
 #weatherSearch{
     display:flex;
     width:50%;
@@ -212,5 +215,5 @@ audio::-webkit-media-controls-panel {
      font-weight:800;
      width:fit-content;
      text-transform : uppercase;
-     box-shadow: 0px 5px 3px 1px rgb(0, 100, 102, 0.5);
+     box-shadow: 0px 5px 3px 1px rgba(0, 100, 102, 0.3);
 }
