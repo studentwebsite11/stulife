@@ -38,6 +38,20 @@ form{
 .navbar li a:hover::after {
     transform: scaleY(3);
 }
+
+.dictionaryContainer{
+    position:absolute;
+    height:fit-content;
+    width: 500px;
+    margin-left : 22%;
+    top : 10%;
+    background-color : #55a630;
+    border-radius : 10px;
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+
 .btn{
     background-color :#577C7D;
 }
@@ -70,6 +84,7 @@ form{
     color: #577C7D;
     text-align: center;
 }
+
 .temperature-description p{
     padding: 8px;
     margin: 0;
@@ -99,5 +114,9 @@ form{
     text-align : center;
     margin:10px;
     text-transform: uppercase;
-
+}
+.error{
+    color: red;
+    text-align: center;
+    font-size : 1.5em;
 }
